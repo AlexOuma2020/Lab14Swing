@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab14/Lab14.iml" filepath="$PROJECT_DIR$/Lab14/Lab14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab14Swing.iml" filepath="$PROJECT_DIR$/Lab14Swing.iml" />
+    </modules>
+  </component>
+</project>
