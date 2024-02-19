@@ -114,7 +114,6 @@ public class Application extends JFrame implements ActionListener {//класс 
             if (option){
                 method = "Лямбда-функция";
                 Appliances.zeroize();
-                System.out.println("Задание 1. Лямбда-выражения");
                 Countable countable = (app) -> {if(app.getName().equals(needed)) Appliances.incrNum();};
                 for (int i = 0; i < tv.length; ++i){
                     countable.count(tv[i]);
@@ -124,7 +123,6 @@ public class Application extends JFrame implements ActionListener {//класс 
             else{
                 method = "Ссылка на метод";
                 Appliances.zeroize();
-                System.out.println("2 задание. Ссылка на метод");
                 for (int i = 0; i < tv.length; ++i){
                     countAll(tv[i]::countApp, needed);
                     countAll(fridge[i]::countApp, needed);
